@@ -1,0 +1,392 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.one-head {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.85); 
+    height: 30px;
+    width: 100%;
+    position: sticky;
+}
+.two-head {
+    display: flex;
+    position: sticky;
+    background-color: white;
+    width: 100%;
+    padding: 0%;
+    justify-content: center;
+    
+}
+.quranteacher-img1 {
+    margin-left: 130px;
+    height: 83px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.app-img1 {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 83px;
+    margin-right: 151px;
+}
+.home {
+    margin-left: 30px;
+    width: 50px;
+}
+.two-head a {
+    color: black;
+    text-decoration: none;
+    height: 80px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.two-head a:hover {
+    background-color: deepskyblue;
+    color: white;
+}
+.floating-image {
+    display: flex;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+.floating-image img {
+    animation-name: image-animation;
+    animation-duration: 19s;
+    animation-timing-function: inherit;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+}
+.floating-image1 {
+    height: 100%;
+    width: 100%;
+}
+.floating-image2 {
+    height: 100%;
+    width: 100%;
+}
+.floating-image3 {
+    height: 100%;
+    width: 100%;
+}
+@keyframes image-animation {
+    0% {
+        transform: translateX(0%);
+    }
+    10% {
+        transform: translateX(0%);
+    }
+    20% {
+        transform: translateX(-100%);
+    }
+    30% {
+        transform: translateX(-100%);
+    }
+    40% {
+        transform: translateX(-170%);
+    }
+    50% {
+        transform: translateX(-170%);
+    }
+    60% {
+        transform: translateX(-170%);
+    }
+    70% {
+        transform: translateX(-100%);
+    }
+    80% {
+        transform: translateX(-100%);
+    }
+    90% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+.icon-bar {
+    top: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    font-size: 20px;
+    text-align: center;
+}
+.icon-bar a{
+    padding-top: 15px;
+}
+.icon-bar a:hover{
+    background-color: black;
+}
+.facebook {
+    background-color: #3b5998;
+    color: white;
+    width: 50px;
+    height: 40px;
+}
+.twitter {
+    background-color: #00acee;
+    color: white;
+    width: 50px;
+    height: 40px;
+}
+.google {
+    background-color: #DB4437;
+    color: white;
+    width: 50px;
+    height: 40px;
+}
+.linkedin {
+    background-color: #0072B1;
+    color: white;
+    width: 50px;
+    height: 40px;
+}
+.whatsapp {
+    background-color: #25d366;
+    color: white;
+    width: 50px;
+    height: 40px;
+}
+.welcome-code {
+    background-color: #55ACEE;
+    width: 100%;
+    height: 60px;
+    color: white;
+    display: inline-flex;
+    justify-content: center;
+}
+.i-want-to-learn {
+    width: 300px;
+    height: 50px;
+}
+.views {
+    display: flex;
+    justify-content: center;
+    background-color: #4895c2;
+    width: 100%;
+    height: 130px;
+}
+.row1 th{
+    color: white;
+    font-size: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.row2 {
+    font-size: 21px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+.iframe {
+    display: inline;
+}
+.iframe-video{
+    float: right;
+    margin-top: 0;
+}
+.iframe-p {
+    width: 30%;
+    text-align: left;
+    padding-left: 150px;
+   padding-top: 50px;
+}
+.iframe-button{
+    margin-left: 150px;
+    width: 130px;
+    height: 40px;
+    background-color: #55ACEE;
+    border: 0;
+    color: white;
+}
+.courses-div {
+    width: 100%;
+    text-align: center;
+    background-color: #55ACEE;
+    color: white;
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+.courses-for-brothers-heading {
+    text-align: center;
+    font-size: 30px;
+    color: rgba(00, 00, 00, 0.75);
+}
+.courses-for-brothers-div {
+    display: flex;
+    text-align: center;
+}
+.courses-for-brothers-div button:hover{
+    background-color: #161867;
+}
+.courses-for-brothers-div button {
+    width: 100px;
+    height: 30px;
+    background-color: #55ACEE;
+    color: white;
+    border: 0;
+}
+
+.courses-for-brothers-div a{
+    color: black;
+    text-decoration: none;
+}
+.courses-for-brothers-div img{
+    width: 300px;
+}
+.courses-for-brothers-div section{
+    width: 300px;
+    border: 1px solid black;
+    margin-left: 30px;
+    height: 400px;
+}
+.tafseer-course{
+    margin-left: 150px;
+}
+.view-more-button {
+    width: 130px;
+    height: 40px;
+    background-color: #55ACEE;
+    color: white;
+    border: 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 45%;
+}
+.size:hover {
+    transform: scale(1.1);
+    transition-duration: 0.75s;
+}
+.view-more-button:hover {
+    background-color: #161867;
+}
+.why-choose-quran-teacher {
+    width: 100%;
+    background-color: #55ACEE;
+    color: white;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-size: 20px;
+}
+.why-choose-quran-teacher2 {
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+.Expert-Quran-Tutor img{
+    margin-top: 50px;
+    border-radius: 50%;
+    border: 10px solid aliceblue;
+}
+.Expert-Quran-Tutor h1{
+    text-align: center;
+}
+.Expert-Quran-Tutor {
+    width: 500px;
+    margin-left: 40px;
+    margin-bottom: 100px;
+}
+.why-quran-teacher-img:hover {
+    background-color: #3b5998;
+    color: aliceblue;
+}
+#three-days {
+    text-align: center;
+    margin-left: 30%;
+    width: 300px;
+    margin-bottom: 200px;
+}
+#two-days {
+    width: 300px;
+    margin-bottom: 200px;
+    margin-left: 50px;
+}
+.image-gallery {
+    width: 100%;
+    text-align: center;
+    height: 70px;
+    background-color: #55ACEE;
+    color: white;
+}
+.image-gallery h1{
+    padding-top: 20px;
+}
+.image-gallery2 {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.image-gallery-img1 {
+    width: 625px;
+    height: 450px;
+    margin-left: 150px;
+} 
+.image-gallery-img2 {
+    float: right;
+    margin-right: 150px;
+    width: 625px;
+    height: 450px;
+}
+.testimonial {
+    margin: 50px;
+}
+.contact-us {
+    padding-top: 29px;
+flex-grow: 0.5;
+font-size: 13px;
+font-family: poppinsmedium;
+position: relative;
+overflow: hidden;  
+cursor: pointer;
+padding-left: 100px;
+background-color: transparent;
+z-index: 12;
+justify-content: center;
+align-items: center;
+}
+.send-a-message {
+    width: 120px;
+    height: 30px;
+    background-color: #55ACEE;
+    color: white;
+    border: 0;
+    height: 50px;
+}
+.send-a-message:hover {
+    background-color: #161867;
+}
+.info {
+    flex-grow: 1.5;
+  padding-top: 29px;
+padding-left: 400px;
+display: flex;
+}
+.info input{
+    width: 260px;
+    height: 50px;
+}
+.inp-1 {
+    margin-right: 10px;
+}
+.info select{
+    width: 265px;
+    height: 50px;
+    border: 2px solid black;
+}
+.information {
+    display: flex;
+}
+textarea {
+    border: 2px solid black;
+}
